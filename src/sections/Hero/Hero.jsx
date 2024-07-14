@@ -48,7 +48,7 @@ function Hero() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                    Full Stack Engineer with 2+ years of experience in web, mobile, and server applications. Skilled in Angular, React, Node.js, and Express. Committed to high-quality, timely solutions and actively engaged in solving 300+ DSA questions on Leetcode and GFG.
+                    Full Stack Engineer with 2+ years of experience in web, mobile, and server applications. Skilled in Angular, React, Node.js, and Express. Actively engaged in solving 300+ DSA questions on Leetcode and GFG.
                 </p>
 
                 <a target='_blank' href={cv} download>
