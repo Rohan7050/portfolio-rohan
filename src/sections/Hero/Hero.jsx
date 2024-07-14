@@ -15,7 +15,7 @@ import cv from '../../assets/rohan-pagare-cv.pdf'
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
-    const {theme, toggleTheme} = useTheme();
+    const { theme, toggleTheme } = useTheme();
     const themeIcon = theme == 'light' ? sun : moon;
     const twitterIcon = theme == 'light' ? twitterLight : twitterDark;
     const leetcodeIcon = theme == 'light' ? leetcodeDark : leetcodeLight;
@@ -48,9 +48,9 @@ function Hero() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                    With a passion for developing modern React web apps for commercial businesses.
+                    Full Stack Engineer with 2+ years of experience in web, mobile, and server applications. Skilled in Angular, React, Node.js, and Express. Committed to high-quality, timely solutions and actively engaged in solving 300+ DSA questions on Leetcode and GFG.
                 </p>
-                
+
                 <a target='_blank' href={cv} download>
                     <button className='hover'>Resume</button>
                 </a>
