@@ -1,11 +1,12 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
   text-align: center;
   height: 100vh;
   min-height: 500px;
+  padding-top: 3rem;
 
   .hero {
     max-width: 200px;
@@ -69,7 +70,7 @@
 }
 
 .description {
-  max-width: 40ch;
+  max-width: 30ch;
 }
 
 .info {
