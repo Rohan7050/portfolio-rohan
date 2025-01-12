@@ -59,7 +59,7 @@ function Hero() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                    Full Stack Engineer with 2+ years of experience in web, mobile, and server applications. Actively engaged in solving 300+ DSA questions on Leetcode and GFG.
+                    Full Stack Engineer with 2+ years of experience working in startup, I specialize in designing, developing, and optimizing scalable web, mobile, and server-side application, and have excellent debugging skills.
                 </p>
 
                 <a target='_blank' href={cv} download>
