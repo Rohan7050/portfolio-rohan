@@ -1,11 +1,15 @@
 import Styles from './ProjectsStyle.module.css'
-import viberr from '../../assets/viberr.png'
+import Upvote from '../../assets/upvote.png'
+import KotakMF from '../../assets/kotakmf.png'
+import TicTacToe from '../../assets/tic-tac-toe.png'
+import KotakGlobal from '../../assets/kotak-international.png'
 import ProjectCard from '../../common/components/ProjectCard'
 function Projects() {
     const projectList = [
-        { id: 1, name: 'Viberr', desc: 'Streaming App', link: '', src: viberr },
-        { id: 2, name: 'Viberr', desc: 'Streaming App', link: '', src: viberr },
-        { id: 3, name: 'Viberr', desc: 'Streaming App', link: '', src: viberr }
+        { id: 1, name: 'Upvote', desc: '', link: 'https://github.com/Rohan7050/upvote', src: Upvote },
+        { id: 2, name: 'KotakMF', desc: '', link: 'https://www.kotakmf.com/', src: KotakMF },
+        { id: 3, name: 'Kotak Global', desc: '', link: 'https://www.kotak-international.com/', src: KotakGlobal },
+        {id: 4, name: 'Tic Tac Toe', desc: '', link: 'https://github.com/Rohan7050/tic-tac-toe', src: TicTacToe}
     ]
     return (
         <section id='projects' className={Styles.container}>
@@ -16,6 +20,7 @@ function Projects() {
                         name={project.name}
                         desc={project.desc}
                         src={project.src}
+                        link={project.link}
                         key={project.id} />
                 ))}
             </div>

@@ -1,8 +1,8 @@
 
 
-function ProjectCard({name, desc, src}) {
+function ProjectCard({name, desc, src, link}) {
     return (
-        <a>
+        <a target="_blank" href={link}>
             <img className='hove' src={src} alt={`${name} logo`} />
             <h3>{name}</h3>
             <p>{desc}</p>
